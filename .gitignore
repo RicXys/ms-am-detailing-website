@@ -17,9 +17,6 @@ media/
 New folder/
 *.prproj
 
-# Large assets (add to repo via LFS or host separately)
-public/assets/hero.mp4
-
 # Root-level images
 0c617aae-*.jpg
 Logo-02-1.png
