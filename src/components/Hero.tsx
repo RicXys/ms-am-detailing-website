@@ -11,11 +11,11 @@ export default function Hero() {
         loop
         playsInline
         preload="none"
-        poster="/assets/gallery/01.jpg"
+        poster={`${import.meta.env.BASE_URL}assets/gallery/01.jpg`}
         className="absolute inset-0 w-full h-full object-cover"
       >
         {/* TODO: Replace with your hero video file */}
-        <source src="/assets/hero.mp4" type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}assets/hero.mp4`} type="video/mp4" />
       </video>
 
       {/* Dark gradient overlay */}

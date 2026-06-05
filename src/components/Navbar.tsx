@@ -51,7 +51,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-[auto_1fr_auto] items-center h-16 md:h-20">
         <a href="#hero" className="flex items-center">
           <img
-            src="/assets/logo.png"
+            src={`${import.meta.env.BASE_URL}assets/logo.png`}
             alt="MS Auto & Marine Detailing"
             className="h-12 md:h-16 w-auto"
           />

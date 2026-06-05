@@ -10,7 +10,7 @@ export default function About() {
             <div className="flex justify-center">
               {/* TODO: Save team photo as public/assets/team.png */}
               <img
-                src="/assets/team.png"
+                src={`${import.meta.env.BASE_URL}assets/team.png`}
                 alt="MS A&M Detailing founders"
                 className="w-full max-w-lg rounded-2xl"
               />

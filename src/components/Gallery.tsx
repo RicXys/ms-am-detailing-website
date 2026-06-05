@@ -3,17 +3,19 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import FadeIn from './FadeIn'
 
+const base = import.meta.env.BASE_URL
+
 const images = [
-  { src: '/assets/gallery/01.jpg', alt: 'Ferrari detail — foam wash in progress' },
-  { src: '/assets/gallery/02.png', alt: 'Blue McLaren 600LT with doors up' },
-  { src: '/assets/gallery/03.png', alt: 'Classic hot rod with candy red paint' },
-  { src: '/assets/gallery/04.jpg', alt: 'Green Lamborghini Urus' },
-  { src: '/assets/gallery/05.jpg', alt: 'White McLaren Senna with racing livery' },
-  { src: '/assets/gallery/06.jpg', alt: 'Yacht deck and chrome polish' },
-  { src: '/assets/gallery/07.jpg', alt: 'Classic 1956 Chevy in gold' },
-  { src: '/assets/gallery/08.jpg', alt: 'Blue Corvette C8 in garage' },
-  { src: '/assets/gallery/09.jpg', alt: 'Red Honda Ridgeline detailed' },
-  { src: '/assets/gallery/10.jpg', alt: 'White Ferrari 458 Speciale' },
+  { src: `${base}assets/gallery/01.jpg`, alt: 'Ferrari detail — foam wash in progress' },
+  { src: `${base}assets/gallery/02.png`, alt: 'Blue McLaren 600LT with doors up' },
+  { src: `${base}assets/gallery/03.png`, alt: 'Classic hot rod with candy red paint' },
+  { src: `${base}assets/gallery/04.jpg`, alt: 'Green Lamborghini Urus' },
+  { src: `${base}assets/gallery/05.jpg`, alt: 'White McLaren Senna with racing livery' },
+  { src: `${base}assets/gallery/06.jpg`, alt: 'Yacht deck and chrome polish' },
+  { src: `${base}assets/gallery/07.jpg`, alt: 'Classic 1956 Chevy in gold' },
+  { src: `${base}assets/gallery/08.jpg`, alt: 'Blue Corvette C8 in garage' },
+  { src: `${base}assets/gallery/09.jpg`, alt: 'Red Honda Ridgeline detailed' },
+  { src: `${base}assets/gallery/10.jpg`, alt: 'White Ferrari 458 Speciale' },
 ]
 
 export default function Gallery() {
