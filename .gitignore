@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Media source files
+media/
+New folder/
+*.prproj
+
+# Large assets (add to repo via LFS or host separately)
+public/assets/hero.mp4
+
+# Root-level images
+0c617aae-*.jpg
+Logo-02-1.png
+ccc-*.png
+cccss-*.png
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

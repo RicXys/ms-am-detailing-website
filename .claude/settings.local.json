@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(Copy-Item temp-scaffold\\\\* . -Recurse -Force)",
+      "Bash(Remove-Item temp-scaffold *)",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\Ricky\\\\Desktop\\\\everything\\\\Documents\\\\FREELANCE\\\\MS A&M\\\\website\\\\src\\\\components\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\Ricky\\\\Desktop\\\\everything\\\\Documents\\\\FREELANCE\\\\MS A&M\\\\website\\\\public\\\\assets\\\\gallery\")",
+      "Bash(npx vite *)",
+      "Bash(node node_modules/vite/bin/vite.js --port 5173)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
